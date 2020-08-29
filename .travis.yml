@@ -4,4 +4,5 @@ script:
   - cargo update
   - cargo build
   - cargo test
+  - rustup component add rustfmt
   - cargo fmt --all -- --check
